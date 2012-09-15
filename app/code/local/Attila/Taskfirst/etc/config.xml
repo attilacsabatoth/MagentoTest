@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Attila_Taskfirst>
+            <version>0.1.0</version>
+        </Attila_Taskfirst>
+    </modules>
+    <layout>
+        <updates>
+            <taskfirst>
+                <file>polltoleft.xml</file>
+            </taskfirst>
+        </updates>
+    </layout>
+</config>
