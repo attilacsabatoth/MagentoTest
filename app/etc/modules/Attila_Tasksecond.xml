@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Attila_Tasksecond>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Attila_Tasksecond>
+    </modules>
+    <frontend>
+        <routers>
+            <tasksecond>
+                <use>standard</use>
+                <args>
+                    <module>Attila_Tasksecond</module>
+                    <frontName>test</frontName>
+                </args>
+            </tasksecond>
+        </routers>
+    </frontend>
+</config>
