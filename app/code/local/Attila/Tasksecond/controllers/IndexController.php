@@ -4,7 +4,9 @@ class Attila_Tasksecond_IndexController extends Mage_Core_Controller_Front_Actio
 {
     public function indexAction()
     {
-        echo "Today is a happy day";
+        //echo "Today is a happy day";
+        $this->loadLayout();
+        $this->renderLayout();
     }
 }
 
